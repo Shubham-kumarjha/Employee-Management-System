@@ -18,6 +18,7 @@ def connect_database():
 
 
 
+
 def insert(id, name , phone, role , gender,salary):
     mycursor.execute('INSERT INTO data VALUES (%s,%s,%s,%s,%s,%s)', (id, name , phone, role , gender,salary))
     conn.commit()
