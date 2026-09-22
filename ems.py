@@ -5,7 +5,7 @@ from tkinter import ttk , messagebox
 import database
 
 
-# Function
+# Function  on
 
 
 # delete all
